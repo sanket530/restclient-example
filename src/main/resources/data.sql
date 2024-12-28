@@ -1,11 +1,3 @@
-create table joke (
-    id bigint not null,
-    punchline varchar(255),
-    setup varchar(255),
-    type varchar(50),
-    primary key (id)
-);
-
 INSERT INTO joke (id, type, setup, punchline) VALUES ('66', 'general', 'Did you watch the new comic book movie?', 'It was very graphic!');
 INSERT INTO joke (id, type, setup, punchline) VALUES ('119', 'general', 'How do locomotives know where they''re going?', 'Lots of training');
 INSERT INTO joke (id, type, setup, punchline) VALUES ('158', 'general', 'What did celery say when he broke up with his girlfriend?', 'She wasn''t right for me, so I really do not carrot all.');
